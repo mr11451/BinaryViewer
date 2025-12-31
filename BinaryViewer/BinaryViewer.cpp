@@ -696,7 +696,7 @@ void OpenFile(HWND hWnd)
         {
             DWORD fileSize = GetFileSize(hFile, nullptr);
             g_binaryData.resize(fileSize);
-            g_byteInitialized.resize(fileSize, false);  // 新しいバイナリデータのサイズに合わせてリサイズ
+            g_byteInitialized.resize(fileSize, true);  // 新しいバイナリデータのサイズに合わせてリサイズ
 
             DWORD bytesRead;
             ReadFile(hFile, g_binaryData.data(), fileSize, &bytesRead, nullptr);

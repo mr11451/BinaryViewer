@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="BinaryViewer/BinaryViewer.vcxproj" />
+  <Project Path="BinaryViewer/BinaryViewer.vcxproj" Id="29430077-699e-4494-9abb-768e00c3b75b" />
 </Solution>
