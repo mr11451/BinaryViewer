@@ -31,7 +31,7 @@ A lightweight hex editor for Windows that allows you to view and edit binary fil
 ## Building
 
 1. Open `BinaryViewer.sln` in Visual Studio 2022
-2. Build the solution (F7 or Build Å® Build Solution)
+2. Build the solution (F7 or Build ‚Üí Build Solution)
 3. The executable will be generated in the output directory
 
 ## Usage
@@ -39,7 +39,7 @@ A lightweight hex editor for Windows that allows you to view and edit binary fil
 ### Opening Files
 
 1. Launch BinaryViewer
-2. Click **File Å® Open** or press the Open menu item
+2. Click **File ‚Üí Open** or press the Open menu item
 3. Select any file to view its binary content
 
 ### Editing Bytes
@@ -51,14 +51,14 @@ A lightweight hex editor for Windows that allows you to view and edit binary fil
 
 ### Saving Changes
 
-1. Click **File Å® Save**
+1. Click **File ‚Üí Save**
 2. Choose the destination file name
 3. Confirm if there are any uninitialized bytes (they will be saved as 0x00)
 
 ### Customization
 
-- **Change Font Size**: Click **View Å® Font Size** and select from the available sizes
-- **Change Cursor Color**: Click **View Å® Cursor Color** and pick your preferred color
+- **Change Font Size**: Click **View ‚Üí Font Size** and select from the available sizes
+- **Change Cursor Color**: Click **View ‚Üí Cursor Color** and pick your preferred color
 
 ## Display Format
 
